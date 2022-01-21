@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="firefox browser test(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="OrgnaizationTest.CreateOrganizationTest">
+        <methods>
+          <include name="configBs"/>
+          <include name="configBc"/>
+          <include name="configAs"/>
+          <include name="configAc"/>
+          <include name="configBm"/>
+          <include name="configAm"/>
+          <include name="CreateOrg"/>
+          <include name="CreateOrgwithIndustry"/>
+        </methods>
+      </class> <!-- OrgnaizationTest.CreateOrganizationTest -->
+    </classes>
+  </test> <!-- firefox browser test(failed) -->
+  <test thread-count="5" parallel="tests" name="Chrome browser test(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="OrgnaizationTest.CreateOrganizationTest">
+        <methods>
+          <include name="configBs"/>
+          <include name="configBc"/>
+          <include name="configAs"/>
+          <include name="configAc"/>
+          <include name="configBm"/>
+          <include name="configAm"/>
+          <include name="CreateOrg"/>
+          <include name="CreateOrgwithIndustry"/>
+        </methods>
+      </class> <!-- OrgnaizationTest.CreateOrganizationTest -->
+    </classes>
+  </test> <!-- Chrome browser test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

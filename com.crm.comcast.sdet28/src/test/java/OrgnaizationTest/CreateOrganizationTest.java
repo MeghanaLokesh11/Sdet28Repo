@@ -84,9 +84,8 @@ public class CreateOrganizationTest extends BaseClass {
 		OrganizationInformationPage orgInfoPage = new OrganizationInformationPage(driver);
 		String actualOrgName = orgInfoPage.getOrgInformationText();
 		
-		// organization name Hard assert verification
+		// organization name verification
 				assertEquals((actualOrgName.contains(ExpectedorganizationName)), true);
-
 	}
 }
 
