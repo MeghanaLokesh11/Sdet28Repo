@@ -3,9 +3,9 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="practice.DemoForTakingScreenShot">
+      <class name="productTest.SearchProductByProductNoTest">
         <methods>
-          <include name="sample"/>
+          <include name="SearchProductByProductNo"/>
           <include name="configBs"/>
           <include name="configBc"/>
           <include name="configAs"/>
@@ -13,7 +13,7 @@
           <include name="configBm"/>
           <include name="configAm"/>
         </methods>
-      </class> <!-- practice.DemoForTakingScreenShot -->
+      </class> <!-- productTest.SearchProductByProductNoTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

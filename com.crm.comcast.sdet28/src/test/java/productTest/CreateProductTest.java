@@ -1,5 +1,7 @@
 package productTest;
 
+import static org.testng.Assert.assertEquals;
+
 import java.io.FileInputStream;
 
 import java.io.FileNotFoundException;
@@ -56,11 +58,8 @@ public class CreateProductTest extends BaseClass {
 		String actualProductName = proInfoPage.getProductInformationText();
 
 		// product Name verification
-		if (actualProductName.contains(Expectedproductname)) {
-			System.out.println("product is Created");
-		} else {
-			System.out.println("product is not created");
-		}
+		assertEquals((actualProductName.contains(Expectedproductname)),true);
+		
 
 	}
 	
@@ -84,13 +83,15 @@ public class CreateProductTest extends BaseClass {
 
 		ProductInformationPage proInfoPage = new ProductInformationPage(driver);
 		String actualProductName = proInfoPage.getProductInformationText();
+		
+		assertEquals((actualProductName.contains(Expectedproductname)),true);
 
 		// product Name verification
-		if (actualProductName.contains(Expectedproductname)) {
-			System.out.println("product is Created");
-		} else {
-			System.out.println("product is not created");
-		}
+		//if (actualProductName.contains(Expectedproductname)) {
+		//	System.out.println("product is Created");
+		//} else {
+			//System.out.println("product is not created");
+		//}
 
 	}
 	

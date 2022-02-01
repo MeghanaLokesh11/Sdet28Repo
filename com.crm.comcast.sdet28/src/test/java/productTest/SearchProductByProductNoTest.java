@@ -1,5 +1,7 @@
 package productTest;
 
+import static org.testng.Assert.assertEquals;
+
 import java.io.FileInputStream;
 
 import java.io.FileNotFoundException;
@@ -38,7 +40,7 @@ public class SearchProductByProductNoTest extends BaseClass {
 
 		// get the data from excel sheet
 		String productnumber = eUtil.getStringCellData("Sheet1", 8, 2);
-		String Expecteddropdown = eUtil.getStringCellData("Sheet1", 9, 2);
+		String Expecteddropdown = eUtil.getStringCellData("Sheet1", 12, 2);
 
 		// create Product
 		HomePage homepage = new HomePage(driver);
@@ -51,11 +53,8 @@ public class SearchProductByProductNoTest extends BaseClass {
 		String actualdropdown = productpage.verifyProductNoInfo();
 
 		// verification
-		if (actualdropdown.contains(Expecteddropdown)) {
-			System.out.println("productNumber is matching");
-		} else {
-			System.out.println("productNo is not matching");
-		}
+		assertEquals((actualdropdown.contains(Expecteddropdown)),true);
+
 
 	}
 

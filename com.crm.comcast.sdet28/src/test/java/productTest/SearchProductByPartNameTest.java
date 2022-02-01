@@ -1,5 +1,7 @@
 package productTest;
 
+import static org.testng.Assert.assertEquals;
+
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
@@ -53,11 +55,12 @@ public class SearchProductByPartNameTest extends BaseClass {
 		String actualdropdown = productpage.verifyPartNoInfo();
 
 		// verification
-		if (actualdropdown.contains(Expecteddropdown)) {
+		assertEquals((actualdropdown.contains(Expecteddropdown)),true);
+		/*if (actualdropdown.contains(Expecteddropdown)) {
 			System.out.println("part Number");
 		} else {
 			System.out.println("part Number is not  equal to 25");
-		}
+		}*/
 
 	}
 

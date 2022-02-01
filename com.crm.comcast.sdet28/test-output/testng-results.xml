@@ -2,7 +2,7 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-01-20T15:04:49 IST" name="Default suite" finished-at="2022-01-20T15:05:52 IST" duration-ms="63351">
+  <suite started-at="2022-02-01T15:27:17 IST" name="Default suite" finished-at="2022-02-01T15:28:21 IST" duration-ms="63610">
     <groups>
       <group name="regressionTest">
         <method signature="CreateOrganizationTest.CreateOrgwithIndustry()[pri:0, instance:OrgnaizationTest.CreateOrganizationTest@741a8937]" name="CreateOrgwithIndustry" class="OrgnaizationTest.CreateOrganizationTest"/>
@@ -11,45 +11,45 @@
         <method signature="CreateOrganizationTest.CreateOrg()[pri:0, instance:OrgnaizationTest.CreateOrganizationTest@741a8937]" name="CreateOrg" class="OrgnaizationTest.CreateOrganizationTest"/>
       </group> <!-- smokeTest -->
     </groups>
-    <test started-at="2022-01-20T15:04:49 IST" name="Default test" finished-at="2022-01-20T15:05:52 IST" duration-ms="63351">
+    <test started-at="2022-02-01T15:27:17 IST" name="Default test" finished-at="2022-02-01T15:28:21 IST" duration-ms="63610">
       <class name="OrgnaizationTest.CreateOrganizationTest">
-        <test-method is-config="true" signature="configBs()[pri:0, instance:OrgnaizationTest.CreateOrganizationTest@741a8937]" started-at="2022-01-20T15:04:49 IST" name="configBs" finished-at="2022-01-20T15:04:49 IST" duration-ms="11" status="PASS">
+        <test-method is-config="true" signature="configBs()[pri:0, instance:OrgnaizationTest.CreateOrganizationTest@741a8937]" started-at="2022-02-01T15:27:17 IST" name="configBs" finished-at="2022-02-01T15:27:17 IST" duration-ms="17" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBs -->
-        <test-method is-config="true" signature="configBc()[pri:0, instance:OrgnaizationTest.CreateOrganizationTest@741a8937]" started-at="2022-01-20T15:04:49 IST" name="configBc" finished-at="2022-01-20T15:04:57 IST" duration-ms="8400" status="PASS">
+        <test-method is-config="true" signature="configBc()[pri:0, instance:OrgnaizationTest.CreateOrganizationTest@741a8937]" started-at="2022-02-01T15:27:17 IST" name="configBc" finished-at="2022-02-01T15:27:26 IST" duration-ms="9179" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBc -->
-        <test-method is-config="true" signature="configBm()[pri:0, instance:OrgnaizationTest.CreateOrganizationTest@741a8937]" started-at="2022-01-20T15:04:57 IST" name="configBm" finished-at="2022-01-20T15:05:06 IST" duration-ms="8788" status="PASS">
+        <test-method is-config="true" signature="configBm()[pri:0, instance:OrgnaizationTest.CreateOrganizationTest@741a8937]" started-at="2022-02-01T15:27:26 IST" name="configBm" finished-at="2022-02-01T15:27:34 IST" duration-ms="8116" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBm -->
-        <test-method signature="CreateOrg()[pri:0, instance:OrgnaizationTest.CreateOrganizationTest@741a8937]" started-at="2022-01-20T15:05:06 IST" name="CreateOrg" finished-at="2022-01-20T15:05:31 IST" duration-ms="25194" status="PASS">
+        <test-method signature="CreateOrg()[pri:0, instance:OrgnaizationTest.CreateOrganizationTest@741a8937]" started-at="2022-02-01T15:27:34 IST" name="CreateOrg" finished-at="2022-02-01T15:28:01 IST" duration-ms="26357" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CreateOrg -->
-        <test-method is-config="true" signature="configAm()[pri:0, instance:OrgnaizationTest.CreateOrganizationTest@741a8937]" started-at="2022-01-20T15:05:31 IST" name="configAm" finished-at="2022-01-20T15:05:34 IST" duration-ms="2087" status="PASS">
+        <test-method is-config="true" signature="configAm()[pri:0, instance:OrgnaizationTest.CreateOrganizationTest@741a8937]" started-at="2022-02-01T15:28:01 IST" name="configAm" finished-at="2022-02-01T15:28:03 IST" duration-ms="1978" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAm -->
-        <test-method is-config="true" signature="configBm()[pri:0, instance:OrgnaizationTest.CreateOrganizationTest@741a8937]" started-at="2022-01-20T15:05:34 IST" name="configBm" finished-at="2022-01-20T15:05:37 IST" duration-ms="2986" status="PASS">
+        <test-method is-config="true" signature="configBm()[pri:0, instance:OrgnaizationTest.CreateOrganizationTest@741a8937]" started-at="2022-02-01T15:28:03 IST" name="configBm" finished-at="2022-02-01T15:28:06 IST" duration-ms="2893" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBm -->
-        <test-method signature="CreateOrgwithIndustry()[pri:0, instance:OrgnaizationTest.CreateOrganizationTest@741a8937]" started-at="2022-01-20T15:05:37 IST" name="CreateOrgwithIndustry" finished-at="2022-01-20T15:05:50 IST" duration-ms="13473" status="PASS">
+        <test-method signature="CreateOrgwithIndustry()[pri:0, instance:OrgnaizationTest.CreateOrganizationTest@741a8937]" started-at="2022-02-01T15:28:06 IST" name="CreateOrgwithIndustry" finished-at="2022-02-01T15:28:18 IST" duration-ms="12688" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CreateOrgwithIndustry -->
-        <test-method is-config="true" signature="configAm()[pri:0, instance:OrgnaizationTest.CreateOrganizationTest@741a8937]" started-at="2022-01-20T15:05:50 IST" name="configAm" finished-at="2022-01-20T15:05:52 IST" duration-ms="1648" status="PASS">
+        <test-method is-config="true" signature="configAm()[pri:0, instance:OrgnaizationTest.CreateOrganizationTest@741a8937]" started-at="2022-02-01T15:28:18 IST" name="configAm" finished-at="2022-02-01T15:28:20 IST" duration-ms="1933" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAm -->
-        <test-method is-config="true" signature="configAc()[pri:0, instance:OrgnaizationTest.CreateOrganizationTest@741a8937]" started-at="2022-01-20T15:05:52 IST" name="configAc" finished-at="2022-01-20T15:05:52 IST" duration-ms="717" status="PASS">
+        <test-method is-config="true" signature="configAc()[pri:0, instance:OrgnaizationTest.CreateOrganizationTest@741a8937]" started-at="2022-02-01T15:28:20 IST" name="configAc" finished-at="2022-02-01T15:28:21 IST" duration-ms="399" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAc -->
-        <test-method is-config="true" signature="configAs()[pri:0, instance:OrgnaizationTest.CreateOrganizationTest@741a8937]" started-at="2022-01-20T15:05:52 IST" name="configAs" finished-at="2022-01-20T15:05:52 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="configAs()[pri:0, instance:OrgnaizationTest.CreateOrganizationTest@741a8937]" started-at="2022-02-01T15:28:21 IST" name="configAs" finished-at="2022-02-01T15:28:21 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAs -->
