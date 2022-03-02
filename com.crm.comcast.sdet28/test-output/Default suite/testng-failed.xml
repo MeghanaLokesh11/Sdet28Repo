@@ -3,17 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="productTest.SearchProductByProductNoTest">
+      <class name="bookflight.BookFlight">
         <methods>
-          <include name="SearchProductByProductNo"/>
-          <include name="configBs"/>
-          <include name="configBc"/>
-          <include name="configAs"/>
-          <include name="configAc"/>
-          <include name="configBm"/>
-          <include name="configAm"/>
+          <include name="BookTicket"/>
         </methods>
-      </class> <!-- productTest.SearchProductByProductNoTest -->
+      </class> <!-- bookflight.BookFlight -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
